@@ -87,10 +87,11 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'NAME': 'guest',
-        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'USER': 'root',
         'PASSWORD': 'root',
-        'OPTIONS': {'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",},
+        # 'OPTIONS': {
+        #     'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+        # },
     }
 }
 
